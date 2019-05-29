@@ -6,27 +6,36 @@ ul {
 
 li {
   display: inline;
+  list-style: none;
+  font-size: 13px;
 }
 
 .top {
   position: fixed;
   right: 0px;
   margin: 20x;
-  link-color:grey;
+  text-decoration: none;
+  color: grey;
 }
 
 .bottomleft {
   position:fixed;
   bottom: 0;
-  margin: 10px;
-  border: 1px;
+  left: 0px;
+  margin: 0px;
+   background-color: #d9d9d9;
+  padding: 8px;
+  border: 1px solid black;
+  width: 100%
+   
 }
 
 .bottomright {
   position: fixed;
   bottom:0;
-  right: 0;
+  right: 0px;
   margin: 10px;
+  background-color: #d9d9d9;
 }
 
 .image {
@@ -52,11 +61,49 @@ input {
 
 .zoekknoppen {
   position: absolute;
-  top:65%;
+  top:69%;
   left: 42%;
    background-color: #bbc0c9;
-  border: 1px;
+  border: 0px;
   border-radius: 15px;
 }
 
+.country {
+position:fixed;
+  bottom: 30px;
+  left: 0px;
+  margin: 0px;
+   background-color: #d9d9d9;
+  padding: 8px;
+  border: 1px solid black;
+  width: 100%;
+  color: grey;
+  font-size: 14px;
+}
 
+.languages {
+  position: absolute;
+  top: 75%;
+  left: 41%;
+  font-size: 13px;
+  
+}
+
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.languages a {
+  color: blue;
+}
+
+
+li .inloggen {
+  background-color: #3473d8;
+    padding: 6px;
+  border: none;
+  color: white;
+  margin: 6px;
+}
